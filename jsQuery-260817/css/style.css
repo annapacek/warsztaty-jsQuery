@@ -1,0 +1,100 @@
+/*reset*/
+body {
+    margin: 0;
+}
+
+#first {
+    height: 50vh;
+    background-color: blue;
+}
+
+#first p {
+    font-size: 12px;
+    color: blueviolet;
+}
+
+/* nawigacja */
+#main-nav {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    transition: all 0.4s;
+}
+
+#main-nav.scrolled {
+    background-color: green;
+}
+
+#main-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+#main-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-nav ul li.active a {
+    color: blue;
+}
+
+#hide {
+    height: 50vh;
+    background-color: red;
+}
+
+#show {
+    display: none;
+    height: 50vh;
+    background-color: blue;
+}
+
+#animacja {
+    position: relative;
+    height: 500px;
+}
+
+#animacja button {
+    
+}
+
+#animacja .animated {
+    position: absolute;
+    top: 20px;
+    height: 480px;
+    width: 50%;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
