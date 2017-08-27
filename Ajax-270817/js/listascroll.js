@@ -53,7 +53,9 @@ function ajax ( ajaxOptions ) {
 }
 
 //document.getElementById('my-list').onscroll = 
-//window.onscroll
+//window.onscroll = function scrollToEnd() {
+//juz tej funkcji nie uzalezniamy od windowa
+//}
 function scrollToEnd(window) {
     console.log('sprawdzam');
     window.addEventListener('scroll', function() {
